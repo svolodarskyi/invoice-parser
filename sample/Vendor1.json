@@ -1,9 +1,0 @@
-{
-    "Vendor Name": ["value", "Vendor1"],
-    "Invoice Number": ["regex", "([0-9]{8})"],
-    "Invoice Date":  ["regex", "([0-9]{1,2}/[0-9]{1,2}/[0-9]{4})"],
-    "Ship Date":  ["regex", "([0-9]{1,2}/[0-9]{1,2}/[0-9]{4})"],
-    "Truck Number":  ["regex", "([A-Z]{4}[0-9]{6})"],
-    "Line Item Amount": ["regex", "([0-9]{1,2},[0-9]{3}\\.[0-9]{1,2})"]
-
-}
