@@ -14,7 +14,7 @@ It can be used as a standalone solution or as a part of a workflow.
 
 At this point it is working only with machine generated pdf files. 
 
-OCR functionality will added on the next iterations.
+OCR functionality will added at the next iterations.
 
 
 
