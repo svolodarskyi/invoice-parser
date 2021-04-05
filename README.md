@@ -16,7 +16,7 @@ At this point it is working only with machine generated pdf files.
 
 OCR functionality will added at the next iterations.
 
-
+Text extraction is handled by [PdfPlumber library](https://github.com/jsvine/pdfplumber).
 
 ## Setup
 
