@@ -54,7 +54,7 @@ from invoiceparser.templatehandler import TemplateHandler
 from invoiceparser.datacollector import DataCollector
 
 
-# if GUI used for the front-end below variable will be passed from it
+# if GUI used for the front-end, below variable will be passed from it
 vendorname = 'Vendor1'
 templatemapping = 'TemplateMapping.json'
 folder_with_pdf = 'C:/Users/user/invoiceparser/src'
