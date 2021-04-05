@@ -75,19 +75,22 @@ for f in files:
 
     invdata = {}
 
-    """ 
-    Loaded template contains value indicator.
-    It specifies if value contains regular expression or not.
-    """
+    # loaded template contains value indicator.
+    # it specifies if value contains regular expression or not.
+  
     for key, value in inv.template.items():
         if inv.template[key][0] == 'regex':
             invdata[key], inv.text = Matcher.find_match(inv.template[key][1], inv.text)
         else:
             invdata[key] = inv.template[key][1]
-    
+            
+    # adding invoice data to repository
     parsed_data.add(invdata)
 
+#viewing dataframe with parsed data
 print(parsed_data.dataframe)
+
+#save to excel, if needed
 parsed_data.save_to_excel(output_folder)
 ```
 
