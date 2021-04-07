@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Templates
 This library supposes that each vendor will have a separate template. 
 
-Templates are the collection of patterns (regular extressions) and other parameters stored in JSON file. 
+Templates are the collection of patterns (regular extpessions) and other parameters stored in JSON file. 
 Patterns are used for extracting data from the invoice.
 
 Template JSON file can store any other parameters. The libary is not restricted to any specific format of the templates. 
