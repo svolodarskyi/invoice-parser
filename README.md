@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Templates
-This library supposes that each vendor will have a separate template. 
+This library supposes that each vendor has a separate template. 
 
 Templates are the collection of patterns (regular extpessions) and other parameters stored in JSON file. 
 Patterns are used for extracting data from the invoice.
